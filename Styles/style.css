@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.max-width {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.border{
+    border: 2px solid tomato;
+}
+
+
+
+/* Navbar styles */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-logo img {
+    width: 40px;
+}
+
+.header-logo h3 {
+    font-size: 30px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 10px;
+}
+
+
+.nav-items li {
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+}
+
+.bar {
+    width: 30px;
+    display: none;
+}
+
+
+
+/* banner seciton */
+
+.banner {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner>img {
+    width: 100%;
+
+}
+
+
+/* Standard curriculum */
+.curriculam h2{
+    font-size: 40px;
+    text-align:center ;
+}
+
+.curriculum-container{
+    display: flex;
+    gap: 20px;
+}
+
+.curriculam-card{
+    background-image: url(../assets/bg.png);
+    background-color: bisque;
+    padding: 20px;
+}
+
+
+/* our story */
+
+.out-story{
+    display: flex;
+    align-items: center;
+
+}
+
+.story-group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* story */
+
+.story-card{
+    position: relative;
+}
+
+.story-btn{
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+
+/* Mobile devices responsive */
+
+@media screen and (max-width:776px) {
+
+    /* navbar */
+    .nav-items {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+    }
+
+
+    /* banner */
+    .banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+
+
+    /*  */
+
+    .curriculum-container{
+       flex-direction: column;
+    }
+  
+
+
+
+    .story-group{
+        grid-template-columns: 1fr;
+    }
+     .left-card{
+        display: none;
+    }
+
+}
