@@ -120,8 +120,16 @@ body {
 
 /* Standard curriculum */
 .curriculam h2{
+
     font-size: 40px;
     text-align:center ;
+}
+
+.curriculam > h2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    margin: 100px auto ;
 }
 
 .curriculum-container{
@@ -138,16 +146,27 @@ body {
 
 /* our story */
 
+.story-container{
+    margin: 100px auto;
+}
+.story-container > h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
 .out-story{
     display: flex;
     align-items: center;
-
+    margin: 100px auto ;
 }
+
 
 .story-group{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+
 
 /* story */
 
@@ -159,6 +178,10 @@ body {
     position: absolute;
     left: 50px;
     top: 200px;
+}
+
+.story-card h2{
+    margin: 20px 0;
 }
 
 .banner-title1{
@@ -176,6 +199,7 @@ body {
     font-weight: bold;
     color: #01ACFD;
 }
+
 .banner-p{
     font-size: 20px;
 }
