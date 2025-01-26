@@ -130,32 +130,11 @@ body {
 }
 
 .curriculam-card{
-    background-image: linear-gradient(to right, rgb(223, 104, 0) , rgb(222, 16, 115));
-    background-color: bisque;
-    padding: 20px;
-    border-radius: 18px;
-}
-.curriculam-card2{
-    background-image: linear-gradient(to right, rgb(81, 56, 34) , rgb(151, 60, 104));
-    background-color: bisque;
-    padding: 20px;
-    border-radius: 18px;
-}
-.curriculam-card3{
-    background-image: linear-gradient(to right, rgb(223, 104, 0) , rgb(222, 16, 115));
-    background-color: bisque;
-    padding: 20px;
-    border-radius: 18px;
-}
-.curriculum-container{
-
-    height: 476.78px;
-   
-    border-radius: 18.86px;
-    text-align: center;
     background-image: url(../assets/bg.png);
-
+    background-color: bisque;
+    padding: 20px;
 }
+
 
 /* our story */
 
@@ -252,4 +231,23 @@ margin: 10px;
         display: none;
     }
 
+    /*footer*/
+    .main-footer{
+        flex-direction: column;
+    }
+
+}
+/* footer*/
+.main-footer{
+    background-color: #01ACFD;
+    height: 519px;
+    display: flex;
+    justify-content: space-between;
+    margin: ;
+}
+.footer.logo{
+    display: flex;
+}
+ul>li{
+    text-decoration: none;
 }
