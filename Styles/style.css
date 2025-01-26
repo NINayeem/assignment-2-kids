@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+
 * {
     margin: 0;
     padding: 0;
@@ -43,16 +53,53 @@
 
 .nav-items li {
     list-style: none;
+
 }
 
 .nav-items li a {
     text-decoration: none;
+    gap: 32px;
 }
 
 .bar {
     width: 30px;
     display: none;
 }
+.nav-btn{
+    width: 96px;
+    height: 50px;
+    background:#FEA301;
+    padding: 10px 10px;
+    border-radius: 12px;
+}
+.nav-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav-scetion{
+    font-size: 20px;
+    font-weight: 20px;
+    color: #FEA301;
+}
+.nav-scetion2{
+    font-size: 20px;
+    font-weight: 20px;
+    color: #01ACFD;
+}
+
+.nav-scetion3{
+    font-size: 20px;
+    font-weight: 20px;
+    color: #05D4DF;
+}
+
+.nav-scetion4{
+    font-size: 20px;
+    font-weight: 20px;
+    color: #5D58EF;
+    
+}
+
 
 
 
@@ -83,11 +130,32 @@
 }
 
 .curriculam-card{
-    background-image: url(../assets/bg.png);
+    background-image: linear-gradient(to right, rgb(223, 104, 0) , rgb(222, 16, 115));
     background-color: bisque;
     padding: 20px;
+    border-radius: 18px;
 }
+.curriculam-card2{
+    background-image: linear-gradient(to right, rgb(81, 56, 34) , rgb(151, 60, 104));
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 18px;
+}
+.curriculam-card3{
+    background-image: linear-gradient(to right, rgb(223, 104, 0) , rgb(222, 16, 115));
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 18px;
+}
+.curriculum-container{
 
+    height: 476.78px;
+   
+    border-radius: 18.86px;
+    text-align: center;
+    background-image: url(../assets/bg.png);
+
+}
 
 /* our story */
 
@@ -114,6 +182,33 @@
     top: 200px;
 }
 
+.banner-title1{
+    font-size: 56px;
+    font-weight: bold;
+    color: #FEA301;
+}
+.banner-title2{
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-title3{
+
+    font-size: 56px;
+    font-weight: bold;
+    color: #01ACFD;
+}
+.banner-p{
+    font-size: 20px;
+}
+.banner-btn{
+    width: 197px;
+    height: 50px;
+    color:white;
+border-radius: 12px;
+padding: 10px 10px;
+background-color: black;
+margin: 10px;
+}
 
 /* Mobile devices responsive */
 
